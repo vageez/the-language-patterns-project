@@ -30,6 +30,8 @@ jobs:
           SITE_URL: https://vageez.github.io
           BASE_PATH: /the-language-patterns-project
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
