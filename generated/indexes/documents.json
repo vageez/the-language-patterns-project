@@ -1,0 +1,306 @@
+[
+  {
+    "title": "Current state",
+    "id": "SPEC-0001",
+    "document_type": "project_state",
+    "version": "0.1",
+    "status": "active",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "The mutable snapshot of the project’s current phase, decisions, hypotheses, questions, and next milestone.",
+    "aliases": [
+      "Project State"
+    ],
+    "tags": [
+      "planning",
+      "architecture"
+    ],
+    "dependencies": [],
+    "related": [],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "current-state.md",
+    "slug": "current-state"
+  },
+  {
+    "title": "Collaboration model",
+    "id": "SPEC-0005",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for the project collaboration model; canonical content has not yet been adopted.",
+    "aliases": [],
+    "tags": [
+      "project",
+      "collaboration"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0004"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/collaboration-model.md",
+    "slug": "specification/collaboration-model"
+  },
+  {
+    "title": "Constitution",
+    "id": "SPEC-0003",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for the project constitution; canonical content has not yet been adopted.",
+    "aliases": [],
+    "tags": [
+      "project",
+      "governance"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0004"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/constitution.md",
+    "slug": "specification/constitution"
+  },
+  {
+    "title": "Contributing",
+    "id": "SPEC-0011",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for the canonical contribution process; see the repository guide for current mechanics.",
+    "aliases": [],
+    "tags": [
+      "project",
+      "contributing"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0004",
+      "SPEC-0006"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/contributing.md",
+    "slug": "specification/contributing"
+  },
+  {
+    "title": "Design philosophy",
+    "id": "SPEC-0007",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for the project’s design philosophy; canonical content has not yet been adopted.",
+    "aliases": [],
+    "tags": [
+      "project",
+      "design"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0006"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/design-philosophy.md",
+    "slug": "specification/design-philosophy"
+  },
+  {
+    "title": "Glossary",
+    "id": "SPEC-0008",
+    "document_type": "glossary",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "The reserved canonical glossary for project terminology.",
+    "aliases": [],
+    "tags": [
+      "terminology"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0009"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/glossary.md",
+    "slug": "specification/glossary"
+  },
+  {
+    "title": "Governance",
+    "id": "SPEC-0004",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for governance rules; canonical content has not yet been adopted.",
+    "aliases": [],
+    "tags": [
+      "project",
+      "governance"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0003",
+      "SPEC-0005"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/governance.md",
+    "slug": "specification/governance"
+  },
+  {
+    "title": "Manifesto",
+    "id": "SPEC-0002",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for the project manifesto; canonical content has not yet been adopted.",
+    "aliases": [],
+    "tags": [
+      "project"
+    ],
+    "dependencies": [],
+    "related": [],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/manifesto.md",
+    "slug": "specification/manifesto"
+  },
+  {
+    "title": "Methodology",
+    "id": "SPEC-0006",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for the evidence and validation methodology; canonical content has not yet been adopted.",
+    "aliases": [],
+    "tags": [
+      "research",
+      "methodology"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0007"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/methodology.md",
+    "slug": "specification/methodology"
+  },
+  {
+    "title": "Ontology",
+    "id": "ONT-0001",
+    "document_type": "ontology",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "low",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for ontology work; no ontology has been defined.",
+    "aliases": [],
+    "tags": [
+      "ontology"
+    ],
+    "dependencies": [],
+    "related": [],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/ontology.md",
+    "slug": "specification/ontology"
+  },
+  {
+    "title": "Terminology",
+    "id": "SPEC-0009",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for naming rules and controlled project terminology.",
+    "aliases": [],
+    "tags": [
+      "terminology"
+    ],
+    "dependencies": [],
+    "related": [
+      "SPEC-0008"
+    ],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/terminology.md",
+    "slug": "specification/terminology"
+  },
+  {
+    "title": "Versioning",
+    "id": "SPEC-0010",
+    "document_type": "specification",
+    "version": "0.1",
+    "status": "draft",
+    "maturity": "observation",
+    "confidence": "not_applicable",
+    "created": "2026-07-12",
+    "updated": "2026-07-12",
+    "authors": [],
+    "summary": "Reserved for canonical document versioning and supersession rules.",
+    "aliases": [],
+    "tags": [
+      "project",
+      "versioning"
+    ],
+    "dependencies": [],
+    "related": [],
+    "supersedes": [],
+    "superseded_by": [],
+    "path": "specification/versioning.md",
+    "slug": "specification/versioning"
+  }
+]

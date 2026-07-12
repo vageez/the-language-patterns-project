@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-07-12T14:53:53.436Z",
+  "nodes": [
+    {
+      "id": "SPEC-0001",
+      "title": "Current state",
+      "document_type": "project_state",
+      "status": "active",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/current-state/"
+    },
+    {
+      "id": "SPEC-0005",
+      "title": "Collaboration model",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/collaboration-model/"
+    },
+    {
+      "id": "SPEC-0003",
+      "title": "Constitution",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/constitution/"
+    },
+    {
+      "id": "SPEC-0011",
+      "title": "Contributing",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/contributing/"
+    },
+    {
+      "id": "SPEC-0007",
+      "title": "Design philosophy",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/design-philosophy/"
+    },
+    {
+      "id": "SPEC-0008",
+      "title": "Glossary",
+      "document_type": "glossary",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/glossary/"
+    },
+    {
+      "id": "SPEC-0004",
+      "title": "Governance",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/governance/"
+    },
+    {
+      "id": "SPEC-0002",
+      "title": "Manifesto",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/manifesto/"
+    },
+    {
+      "id": "SPEC-0006",
+      "title": "Methodology",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/methodology/"
+    },
+    {
+      "id": "ONT-0001",
+      "title": "Ontology",
+      "document_type": "ontology",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "low",
+      "path": "/specification/ontology/"
+    },
+    {
+      "id": "SPEC-0009",
+      "title": "Terminology",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/terminology/"
+    },
+    {
+      "id": "SPEC-0010",
+      "title": "Versioning",
+      "document_type": "specification",
+      "status": "draft",
+      "maturity": "observation",
+      "confidence": "not_applicable",
+      "path": "/specification/versioning/"
+    }
+  ],
+  "edges": [
+    {
+      "source": "SPEC-0005",
+      "target": "SPEC-0004",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0003",
+      "target": "SPEC-0004",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0011",
+      "target": "SPEC-0004",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0011",
+      "target": "SPEC-0006",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0007",
+      "target": "SPEC-0006",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0008",
+      "target": "SPEC-0009",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0004",
+      "target": "SPEC-0003",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0004",
+      "target": "SPEC-0005",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0006",
+      "target": "SPEC-0007",
+      "type": "related_to"
+    },
+    {
+      "source": "SPEC-0009",
+      "target": "SPEC-0008",
+      "type": "related_to"
+    }
+  ]
+}

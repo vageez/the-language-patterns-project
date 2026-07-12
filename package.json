@@ -1,0 +1,34 @@
+{
+  "name": "the-language-patterns-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "start": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "validate": "node tools/validator/validate.mjs",
+    "generate:indexes": "node tools/indexer/generate.mjs",
+    "generate:graph": "node tools/graph/generate.mjs",
+    "generate": "npm run generate:indexes && npm run generate:graph",
+    "build": "npm run validate && npm run generate && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "test": "npm run validate && ASTRO_TELEMETRY_DISABLED=1 astro check"
+  },
+  "dependencies": {
+    "@astrojs/check": "latest",
+    "@astrojs/starlight": "latest",
+    "@mermaid-js/layout-elk": "^0.2.2",
+    "astro": "latest",
+    "astro-mermaid": "^2.1.0",
+    "gray-matter": "latest",
+    "mermaid": "^11.16.0",
+    "sharp": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "glob": "latest"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

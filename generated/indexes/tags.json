@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "planning",
+    "documents": [
+      {
+        "id": "SPEC-0001",
+        "title": "Current state"
+      }
+    ]
+  },
+  {
+    "tag": "architecture",
+    "documents": [
+      {
+        "id": "SPEC-0001",
+        "title": "Current state"
+      }
+    ]
+  },
+  {
+    "tag": "project",
+    "documents": [
+      {
+        "id": "SPEC-0005",
+        "title": "Collaboration model"
+      },
+      {
+        "id": "SPEC-0003",
+        "title": "Constitution"
+      },
+      {
+        "id": "SPEC-0011",
+        "title": "Contributing"
+      },
+      {
+        "id": "SPEC-0007",
+        "title": "Design philosophy"
+      },
+      {
+        "id": "SPEC-0004",
+        "title": "Governance"
+      },
+      {
+        "id": "SPEC-0002",
+        "title": "Manifesto"
+      },
+      {
+        "id": "SPEC-0010",
+        "title": "Versioning"
+      }
+    ]
+  },
+  {
+    "tag": "collaboration",
+    "documents": [
+      {
+        "id": "SPEC-0005",
+        "title": "Collaboration model"
+      }
+    ]
+  },
+  {
+    "tag": "governance",
+    "documents": [
+      {
+        "id": "SPEC-0003",
+        "title": "Constitution"
+      },
+      {
+        "id": "SPEC-0004",
+        "title": "Governance"
+      }
+    ]
+  },
+  {
+    "tag": "contributing",
+    "documents": [
+      {
+        "id": "SPEC-0011",
+        "title": "Contributing"
+      }
+    ]
+  },
+  {
+    "tag": "design",
+    "documents": [
+      {
+        "id": "SPEC-0007",
+        "title": "Design philosophy"
+      }
+    ]
+  },
+  {
+    "tag": "terminology",
+    "documents": [
+      {
+        "id": "SPEC-0008",
+        "title": "Glossary"
+      },
+      {
+        "id": "SPEC-0009",
+        "title": "Terminology"
+      }
+    ]
+  },
+  {
+    "tag": "research",
+    "documents": [
+      {
+        "id": "SPEC-0006",
+        "title": "Methodology"
+      }
+    ]
+  },
+  {
+    "tag": "methodology",
+    "documents": [
+      {
+        "id": "SPEC-0006",
+        "title": "Methodology"
+      }
+    ]
+  },
+  {
+    "tag": "ontology",
+    "documents": [
+      {
+        "id": "ONT-0001",
+        "title": "Ontology"
+      }
+    ]
+  },
+  {
+    "tag": "versioning",
+    "documents": [
+      {
+        "id": "SPEC-0010",
+        "title": "Versioning"
+      }
+    ]
+  }
+]

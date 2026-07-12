@@ -1,0 +1,21 @@
+---
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+
+const data = Astro.locals.starlightRoute.entry.data;
+const metadata = [
+  ['Status', data.status],
+  ['Maturity', data.maturity],
+  ['Confidence', data.confidence]
+].filter((item): item is [string, string] => Boolean(item[1]));
+---
+
+<Default />
+{(data.id || metadata.length > 0) && (
+  <dl class="canonical-meta" aria-label="Document metadata">
+    {data.id && <div class="canonical-id"><dt>Canonical ID</dt><dd>{data.id}</dd></div>}
+    {metadata.map(([label, value]) => (
+      <div><dt>{label}</dt><dd data-value={value}>{value.replace('_', ' ')}</dd></div>
+    ))}
+  </dl>
+)}
+{data.summary && <p class="page-summary">{data.summary}</p>}

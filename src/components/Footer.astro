@@ -1,0 +1,13 @@
+---
+import Default from '@astrojs/starlight/components/Footer.astro';
+const data = Astro.locals.starlightRoute.entry.data;
+---
+
+{(data.dependencies?.length || data.related?.length) && (
+  <aside class="relationship-panel" aria-labelledby="relationships-title">
+    <p class="eyebrow" id="relationships-title">Relationships</p>
+    {data.dependencies?.length > 0 && <p><strong>Depends on</strong> <code>{data.dependencies.join(', ')}</code></p>}
+    {data.related?.length > 0 && <p><strong>Related to</strong> <code>{data.related.join(', ')}</code></p>}
+  </aside>
+)}
+<Default />

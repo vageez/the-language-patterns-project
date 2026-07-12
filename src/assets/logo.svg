@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 48" role="img" aria-labelledby="title">
+  <title id="title">The Language Patterns Project</title>
+  <g fill="none" stroke="currentColor" stroke-width="2">
+    <circle cx="12" cy="24" r="5"/><circle cx="34" cy="12" r="5"/><circle cx="34" cy="36" r="5"/>
+    <path d="m16 22 13-7M16 26l13 7"/>
+  </g>
+  <text x="52" y="30" fill="currentColor" font-family="ui-sans-serif,system-ui,sans-serif" font-size="19" font-weight="650" letter-spacing="-.3">Language Patterns Project</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="title desc">
+  <title id="title">A network of connected language concepts</title>
+  <desc id="desc">Abstract nodes connected in layers, representing concepts, evidence, and relationships.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#216b60"/><stop offset="1" stop-color="#e8c979"/></linearGradient></defs>
+  <g fill="none" stroke="#216b60" stroke-opacity=".35" stroke-width="2">
+    <path d="M70 95 185 48l112 70 126-52M70 95l42 121 141-38 116 91 72-62M112 216l41 122 136-58 102 75M253 178l36 102M297 118l-44 60M369 269l22 86"/>
+  </g>
+  <g fill="#faf9f4" stroke="url(#g)" stroke-width="7">
+    <circle cx="70" cy="95" r="18"/><circle cx="185" cy="48" r="14"/><circle cx="297" cy="118" r="25"/><circle cx="423" cy="66" r="13"/><circle cx="112" cy="216" r="25"/><circle cx="253" cy="178" r="17"/><circle cx="369" cy="269" r="27"/><circle cx="441" cy="207" r="13"/><circle cx="153" cy="338" r="14"/><circle cx="289" cy="280" r="15"/><circle cx="391" cy="355" r="16"/>
+  </g>
+  <g fill="#173f3a"><circle cx="70" cy="95" r="6"/><circle cx="297" cy="118" r="8"/><circle cx="112" cy="216" r="8"/><circle cx="369" cy="269" r="9"/></g>
+</svg>
