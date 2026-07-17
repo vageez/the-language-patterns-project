@@ -4,6 +4,7 @@ import mermaid from 'astro-mermaid';
 
 const site = process.env.SITE_URL ?? 'https://vageez.github.io';
 const base = process.env.BASE_PATH ?? '/the-language-patterns-project';
+const socialImage = new URL(`${base.replace(/\/$/, '')}/og.png`, site).toString();
 
 export default defineConfig({
   site,
@@ -20,6 +21,12 @@ export default defineConfig({
       favicon: '/favicon.svg',
       logo: { src: './src/assets/logo.svg', replacesTitle: true },
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/vageez/the-language-patterns-project' }],
+      head: [
+        { tag: 'meta', attrs: { property: 'og:image', content: socialImage } },
+        { tag: 'meta', attrs: { property: 'og:image:alt', content: 'The Language Patterns Project — a living, evidence-driven specification for recurring structures in language.' } },
+        { tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
+        { tag: 'meta', attrs: { name: 'twitter:image', content: socialImage } }
+      ],
       editLink: {
         baseUrl: 'https://github.com/vageez/the-language-patterns-project/edit/main/'
       },
