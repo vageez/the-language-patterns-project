@@ -5,7 +5,7 @@ document_type: primitive
 version: 0.1
 status: draft
 maturity: observation
-confidence: low
+confidence: 1
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 authors: []
@@ -14,6 +14,9 @@ aliases: []
 tags: []
 dependencies: []
 related: []
+supporting_discoveries: []
+supporting_experiments: []
+supporting_hypotheses: []
 supersedes: []
 superseded_by: []
 academic_name:

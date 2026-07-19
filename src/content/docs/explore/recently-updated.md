@@ -7,9 +7,9 @@ generated: true
 > This page is generated from canonical Markdown metadata. Edit the source documents, not this page.
 
 - [**Current state**](../../current-state/) — `SPEC-0001` · project state · active
+- [**Contributing**](../../specification/contributing/) — `SPEC-0011` · specification · draft
 - [**Collaboration model**](../../specification/collaboration-model/) — `SPEC-0005` · specification · draft
 - [**Constitution**](../../specification/constitution/) — `SPEC-0003` · specification · draft
-- [**Contributing**](../../specification/contributing/) — `SPEC-0011` · specification · draft
 - [**Design philosophy**](../../specification/design-philosophy/) — `SPEC-0007` · specification · draft
 - [**Glossary**](../../specification/glossary/) — `SPEC-0008` · glossary · draft
 - [**Governance**](../../specification/governance/) — `SPEC-0004` · specification · draft

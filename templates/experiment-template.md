@@ -5,7 +5,7 @@ document_type: experiment
 version: 0.1
 status: draft
 maturity: observation
-confidence: low
+confidence: 1
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 authors: []
@@ -14,17 +14,20 @@ aliases: []
 tags: []
 dependencies: []
 related: []
+supporting_hypotheses: []
 supersedes: []
 superseded_by: []
 ---
 
-# Question
+# Purpose
 
 # Method
 
-# Materials or corpus
+# Corpus
 
 # Results
+
+# Conclusions
 
 # Counterexamples
 

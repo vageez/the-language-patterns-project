@@ -5,7 +5,7 @@ document_type: validation_report
 version: 0.1
 status: draft
 maturity: observation
-confidence: low
+confidence: 1
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 authors: []

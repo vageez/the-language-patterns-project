@@ -37,21 +37,48 @@ export default defineConfig({
       },
       expressiveCode: { themes: ['github-light', 'github-dark'] },
       sidebar: [
-        { label: 'Start Here', items: [
-          { label: 'Introduction', slug: 'index' },
-          { label: 'How to read this project', slug: 'start-here/how-to-read' },
-          { label: 'Status & maturity', slug: 'start-here/status-and-maturity' }
-        ]},
-        { label: 'Project', items: [{ autogenerate: { directory: 'specification' } }] },
-        { label: 'Current State', items: [{ label: 'Project state', slug: 'current-state' }] },
-        { label: 'Discoveries', items: [{ autogenerate: { directory: 'discoveries' } }] },
-        { label: 'Primitives', items: [{ autogenerate: { directory: 'primitives' } }] },
-        { label: 'Patterns', items: [{ autogenerate: { directory: 'patterns' } }] },
-        { label: 'Compositions', items: [{ autogenerate: { directory: 'compositions' } }] },
-        { label: 'Validation', items: [{ autogenerate: { directory: 'validation' } }] },
-        { label: 'Research', items: [{ autogenerate: { directory: 'research' } }] },
-        { label: 'Explore', items: [{ autogenerate: { directory: 'explore' } }] },
-        { label: 'Glossary', items: [{ label: 'Glossary', slug: 'specification/glossary' }] }
+        { label: 'Home', slug: 'index' },
+        { label: 'Vision', slug: 'vision' },
+        {
+          label: 'Research',
+          items: [
+            { label: 'Research overview', slug: 'research' },
+            { label: 'Research protocol', slug: 'research/protocol' },
+            { label: 'Observations', slug: 'research/observations' },
+            { label: 'Questions', slug: 'research/questions' },
+            { label: 'Hypotheses', slug: 'research/hypotheses' },
+            { label: 'Experiments', slug: 'research/experiments' },
+            { label: 'Discoveries', slug: 'discoveries' },
+            { label: 'Research journal', slug: 'research/journal' }
+          ]
+        },
+        {
+          label: 'Specification',
+          items: [
+            { label: 'Specification overview', slug: 'specification' },
+            {
+              label: 'Foundations',
+              items: [
+                { label: 'Foundations overview', slug: 'specification/foundations' },
+                { label: 'Manifesto', slug: 'specification/manifesto' },
+                { label: 'Constitution', slug: 'specification/constitution' },
+                { label: 'Design philosophy', slug: 'specification/design-philosophy' },
+                { label: 'Methodology', slug: 'specification/methodology' },
+                { label: 'Governance', slug: 'specification/governance' },
+                { label: 'Versioning', slug: 'specification/versioning' }
+              ]
+            },
+            { label: 'Ontology', slug: 'specification/ontology' },
+            { label: 'Primitive nodes', slug: 'specification/primitive-nodes' },
+            { label: 'Primitive relationships', slug: 'specification/primitive-relationships' },
+            { label: 'Primitive modifiers', slug: 'specification/primitive-modifiers' },
+            { label: 'Language patterns', slug: 'patterns' }
+          ]
+        },
+        { label: 'Corpus', slug: 'corpus' },
+        { label: 'Glossary', slug: 'specification/glossary' },
+        { label: 'Contribute', slug: 'specification/contributing' },
+        { label: 'About', slug: 'about' }
       ]
     })
   ]

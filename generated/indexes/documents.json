@@ -8,7 +8,7 @@
     "maturity": "observation",
     "confidence": "not_applicable",
     "created": "2026-07-12",
-    "updated": "2026-07-12",
+    "updated": "2026-07-19",
     "authors": [],
     "summary": "The mutable snapshot of the project’s current phase, decisions, hypotheses, questions, and next milestone.",
     "aliases": [
@@ -86,9 +86,9 @@
     "maturity": "observation",
     "confidence": "not_applicable",
     "created": "2026-07-12",
-    "updated": "2026-07-12",
+    "updated": "2026-07-19",
     "authors": [],
-    "summary": "Reserved for the canonical contribution process; see the repository guide for current mechanics.",
+    "summary": "The interim research, proposal, review, and pull request workflow for contributing to the project.",
     "aliases": [],
     "tags": [
       "project",

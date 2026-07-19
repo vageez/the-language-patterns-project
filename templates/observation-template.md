@@ -1,9 +1,9 @@
 ---
 title:
-id: D-0000
-document_type: counterexample
+id: O-0000
+document_type: observation
 version: 0.1
-status: draft
+status: active
 maturity: observation
 confidence: 1
 created: YYYY-MM-DD
@@ -11,20 +11,17 @@ updated: YYYY-MM-DD
 authors: []
 summary:
 aliases: []
-tags: [counterexample]
+tags: []
 dependencies: []
 related: []
 supersedes: []
 superseded_by: []
-target_id:
 ---
 
-# Target claim
+# Observation
 
-# Counterexample
+# Source and context
 
-# Expected behavior
+# Why it may matter
 
-# Observed behavior
-
-# Implications
+# Related questions

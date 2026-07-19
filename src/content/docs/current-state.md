@@ -7,7 +7,7 @@ status: active
 maturity: observation
 confidence: not_applicable
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-19
 authors: []
 summary: The mutable snapshot of the project’s current phase, decisions, hypotheses, questions, and next milestone.
 aliases: [Project State]
@@ -20,13 +20,13 @@ superseded_by: []
 
 ## Current phase
 
-**Phase 0 — Project Architecture**
+**Discovery 001 - Project Architecture**
 
 Goal: Design the research system before researching language.
 
 ## Current milestone
 
-Complete the architecture of the project before beginning the ontology.
+Complete and validate the research-to-specification documentation scaffold before beginning ontology work.
 
 ## Accepted decisions
 
@@ -36,6 +36,8 @@ Complete the architecture of the project before beginning the ontology.
 - Historical reasoning is preserved.
 - Evidence takes precedence over intuition.
 - Multiple competing hypotheses may coexist.
+- Research produces Specification; Specification does not produce Research.
+- The evidence chain must be navigable in both directions.
 
 ## Active hypotheses
 
@@ -61,16 +63,17 @@ No research threads have been formally opened.
 
 ## Blockers
 
-The repository and research architecture must be established before ontology work begins.
+Canonical research content should not begin until the remaining identifier and confidence migration conventions are confirmed.
 
 ## Next steps
 
-- Establish the documentation and validation architecture.
+- Confirm the canonical identifier vocabulary and complete the confidence migration.
 - Define contribution and methodology documents through the project’s governance process.
 
 ## Recently completed
 
 - Established the initial project planning documents.
 - Implemented the documentation application scaffold.
+- Aligned navigation, artifact templates, metadata, and traceability fields with the Discovery 001 website architecture.
 
-**Last updated:** July 12, 2026
+**Last updated:** July 19, 2026

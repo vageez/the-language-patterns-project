@@ -1,11 +1,11 @@
 ---
 title:
-id: SPEC-0000
-document_type: specification
+id: D-0000
+document_type: discovery
 version: 0.1
 status: draft
-maturity: observation
-confidence: 1
+maturity: validated
+confidence: 3
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 authors: []
@@ -14,25 +14,20 @@ aliases: []
 tags: []
 dependencies: []
 related: []
-supporting_discoveries: []
 supporting_experiments: []
 supporting_hypotheses: []
 supersedes: []
 superseded_by: []
 ---
 
-# Purpose
+# Finding
 
-# Scope
+# Supporting evidence
 
-# Definition
+# Counterevidence and counterexamples
 
-# Rationale
+# Reproduction history
 
-# Dependencies
+# Limitations
 
-# Examples
-
-# Counterexamples
-
-# Change history
+# Specification implications

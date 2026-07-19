@@ -1,10 +1,10 @@
 ---
 title:
-id: LP-0000
-document_type: pattern
+id: N-0000
+document_type: primitive_node
 version: 0.1
 status: draft
-maturity: hypothesis
+maturity: candidate
 confidence: 1
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -19,29 +19,16 @@ supporting_experiments: []
 supporting_hypotheses: []
 supersedes: []
 superseded_by: []
-academic_name:
-engineering_name:
-plain_language_name:
-intent:
-semantic_form:
 ---
 
-# Intent
+# Definition
 
-# Semantic form
-
-# Graph form
-
-# Grammar realizations
-
-# Examples
-
-# Variations
+# Semantic role
 
 # Constraints
 
-# Failure modes
+# Examples
 
-# Related patterns
+# Counterexamples
 
-# Validation and discovery history
+# Research provenance

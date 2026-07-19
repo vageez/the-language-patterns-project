@@ -9,7 +9,10 @@ const canonicalFields = z.object({
   version: z.union([z.string(), z.number()]).optional(),
   status: z.enum(['draft', 'active', 'accepted', 'superseded', 'historical', 'deprecated']).optional(),
   maturity: z.enum(['observation', 'hypothesis', 'candidate', 'validated', 'core', 'deprecated']).optional(),
-  confidence: z.enum(['low', 'medium', 'high', 'not_applicable']).optional(),
+  confidence: z.union([
+    z.number().int().min(1).max(5),
+    z.enum(['low', 'medium', 'high', 'not_applicable'])
+  ]).optional(),
   created: z.coerce.date().optional(),
   updated: z.coerce.date().optional(),
   authors: z.array(z.string()).default([]),
@@ -18,6 +21,9 @@ const canonicalFields = z.object({
   tags: z.array(z.string()).default([]),
   dependencies: z.array(z.string()).default([]),
   related: z.array(z.string()).default([]),
+  supporting_discoveries: z.array(z.string()).default([]),
+  supporting_experiments: z.array(z.string()).default([]),
+  supporting_hypotheses: z.array(z.string()).default([]),
   supersedes: z.array(z.string()).default([]),
   superseded_by: z.array(z.string()).default([])
 });

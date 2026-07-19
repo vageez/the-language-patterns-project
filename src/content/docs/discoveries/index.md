@@ -1,6 +1,8 @@
 ---
 title: Discoveries
-description: Chronological records of questions, observations, hypotheses, evidence, and outcomes.
+description: Validated findings produced by research and eligible to support the specification.
 ---
 
-Discovery records preserve the history of investigation and are not silently rewritten to match later conclusions. No discovery records have been published yet.
+No discoveries have been accepted yet.
+
+A discovery must identify the observations, questions, hypotheses, experiments, corpus evidence, and counterevidence that support it. Acceptance as a discovery does not automatically change the Specification; promotion is a separate reviewed action.

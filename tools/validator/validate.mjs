@@ -4,9 +4,9 @@ const required = ['title', 'id', 'document_type', 'version', 'status', 'created'
 const statuses = new Set(['draft', 'active', 'accepted', 'superseded', 'historical', 'deprecated']);
 const maturities = new Set(['observation', 'hypothesis', 'candidate', 'validated', 'core', 'deprecated']);
 const confidences = new Set(['low', 'medium', 'high', 'not_applicable']);
-const documentTypes = new Set(['project_state', 'specification', 'ontology', 'glossary', 'discovery', 'hypothesis', 'primitive', 'pattern', 'composition', 'validation_report', 'experiment', 'research_question', 'research_proposal', 'counterexample']);
-const idPattern = /^(?:D|SPEC|ONT|N|R|M|C|LP|CP|H|VAL|EXP|RQ)-\d{4}$/;
-const referenceFields = ['dependencies', 'related', 'supersedes', 'superseded_by'];
+const documentTypes = new Set(['project_state', 'specification', 'ontology', 'glossary', 'observation', 'discovery', 'hypothesis', 'primitive', 'primitive_node', 'primitive_relationship', 'primitive_modifier', 'pattern', 'composition', 'validation_report', 'experiment', 'research_question', 'research_proposal', 'research_journal', 'corpus_entry', 'counterexample']);
+const idPattern = /^(?:D|SPEC|ONT|O|N|R|M|C|CE|LP|CP|H|VAL|EXP|RQ|J)-\d{4}$/;
+const referenceFields = ['dependencies', 'related', 'supporting_discoveries', 'supporting_experiments', 'supporting_hypotheses', 'supersedes', 'superseded_by'];
 const errors = [];
 const warnings = [];
 const documents = await loadDocuments();
@@ -24,7 +24,11 @@ for (const document of documents) {
   byId.set(document.id, document);
   if (!statuses.has(document.status)) errors.push(`${document.path}: unknown status “${document.status}”`);
   if (document.maturity && !maturities.has(document.maturity)) errors.push(`${document.path}: unknown maturity “${document.maturity}”`);
-  if (document.confidence && !confidences.has(document.confidence)) errors.push(`${document.path}: unknown confidence “${document.confidence}”`);
+  if (
+    document.confidence !== undefined &&
+    !confidences.has(document.confidence) &&
+    !(Number.isInteger(document.confidence) && document.confidence >= 1 && document.confidence <= 5)
+  ) errors.push(`${document.path}: confidence must be 1-5 or a supported legacy value, received “${document.confidence}”`);
   if (!documentTypes.has(document.document_type)) errors.push(`${document.path}: unknown document type “${document.document_type}”`);
   for (const field of ['created', 'updated']) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(document[field]) || Number.isNaN(Date.parse(document[field]))) errors.push(`${document.path}: invalid ${field} date “${document[field]}”`);

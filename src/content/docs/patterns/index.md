@@ -1,6 +1,10 @@
 ---
 title: Patterns
-description: Recurring language structures with three-name presentation and validation history.
+description: The stable catalog of accepted language patterns.
 ---
 
-No language patterns have been defined. This section is intentionally empty until supported research is completed.
+No language patterns have been accepted yet.
+
+Each accepted pattern will publish an LP identifier; academic, engineering, and plain-language names; intent; semantic and grammatical structures; examples; variations; constraints; failure modes; related patterns; and supporting discoveries.
+
+Candidate patterns belong in [Research](../research/) until the evidence supports promotion.

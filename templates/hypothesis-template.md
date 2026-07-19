@@ -5,7 +5,7 @@ document_type: hypothesis
 version: 0.1
 status: draft
 maturity: hypothesis
-confidence: low
+confidence: 1
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 authors: []
@@ -14,15 +14,20 @@ aliases: []
 tags: []
 dependencies: []
 related: []
+supporting_experiments: []
 supersedes: []
 superseded_by: []
 claim:
 falsification_criteria:
 ---
 
-# Claim
+# Question
+
+# Hypothesis
 
 # Motivation
+
+# Predictions
 
 # Supporting evidence
 
